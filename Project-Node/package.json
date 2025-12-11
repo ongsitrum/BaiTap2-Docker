@@ -1,0 +1,7 @@
+{
+  "name": "docker-node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
