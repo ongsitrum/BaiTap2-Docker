@@ -1,4 +1,5 @@
-version: '3.8'
+version: '3.3'  # <--- Sửa số 3.8 thành 3.3
+
 services:
   web-php:
     build: .
@@ -6,7 +7,7 @@ services:
       - "8080:80"
     depends_on:
       - db
-  
+
   db:
     image: mysql:5.7
     environment:
@@ -15,4 +16,4 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     ports:
-      - "3306:3306"
+      - "3307:3306"

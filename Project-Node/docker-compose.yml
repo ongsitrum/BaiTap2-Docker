@@ -1,7 +1,6 @@
-version: '3.8'
+version: '3.3'
 services:
   web-node:
     build: .
     ports:
-      - "5000:3000" # Map cổng 5000 máy thật vào 3000 container
-
+      - "5000:3000"
